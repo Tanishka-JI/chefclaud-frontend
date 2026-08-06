@@ -66,6 +66,10 @@ src/
 - No `.env` file is required on the frontend — the Hugging Face API key lives **only** in the backend's `.env`, never exposed to the browser.
 - `BASE_URL` (`http://localhost:5000/api/v1`) is currently hardcoded in each service file. When deploying, update these to your deployed backend's URL.
 
+## Live Demo
+Frontend: 'chefclaud-frontend-i4m3.vercel.app'
+Backend API: 'https://chefclaud-backend.onrender.com'
+
 ## Known gaps / next steps
 
 - No token-expiry check — an expired token will just cause failed requests, not an automatic logout prompt yet
