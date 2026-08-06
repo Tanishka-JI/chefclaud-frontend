@@ -1,5 +1,5 @@
 
-const BASE_URL = 'http://localhost:5000/api/v1'
+const BASE_URL = 'https://chefclaud-backend.onrender.com/api/v1'
 
 export async function registerUser(name, email, password) {
   const response = await fetch(`${BASE_URL}/auth/register`, {

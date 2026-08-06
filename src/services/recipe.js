@@ -1,7 +1,7 @@
 // src/services/recipes.js
 import { getToken } from './auth'
 
-const BASE_URL = 'http://localhost:5000/api/v1'
+const BASE_URL = 'https://chefclaud-backend.onrender.com/api/v1'
 
 export async function saveRecipe(ingredients, recipeText) {
   const response = await fetch(`${BASE_URL}/recipes`, {
