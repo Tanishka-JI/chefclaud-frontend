@@ -45,7 +45,7 @@ src/
    npm install
    ```
 
-2. Make sure the [ChefClaud backend](#) is running locally on `http://localhost:5000` (or update `BASE_URL` in `src/ai.js`, `src/services/auth.js`, and `src/services/recipes.js` to match your backend's address).
+2. Make sure the [ChefClaud backend](https://github.com/Tanishka-JI/chefclaud-backend) is running locally on `http://localhost:5000` (or update `BASE_URL` in `src/ai.js`, `src/services/auth.js`, and `src/services/recipes.js` to match your backend's address).
 
 3. Start the dev server:
    ```bash
